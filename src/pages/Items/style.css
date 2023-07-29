@@ -1,0 +1,181 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: calc(100vh - 6rem);
+    align-items: center;
+    padding: 0 5rem;
+}
+
+main .tabs {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border-bottom: 0.2rem solid #8a8a8a;
+    overflow: hidden;
+}
+
+main .tabs .tab {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+main .tabs .active {
+    border-bottom: 0.2rem solid #fff;
+}
+
+main table {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+main table thead {
+    background-color: #202020;
+}
+
+main table thead tr th {
+    padding: 1.25rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+main table tbody tr td {
+    padding: 1.25rem;
+    color: #cecece;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+main table tbody tr td.btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+main table tbody tr td a, main table tbody tr td button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #202020;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0.8rem 2rem;
+    border-radius: 0.6rem;
+}
+
+
+/*  CREATE ITEM   */
+
+main form {
+    margin: 0 auto;
+    max-width: 70rem;
+    padding: 2rem 0;
+    height: calc(100% - 5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input,
+textarea,
+select {
+    background-color: #181818;
+    border-radius: .25rem;
+    border: 0;
+    color: #fefefe;
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    padding: .75rem;
+    width: 100%;
+    outline: none;
+}
+
+label {
+    width: 100%;
+    padding: .75rem;
+    color: #fefefe;
+}
+
+main form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+main form .row div {
+    flex: 1 0 16rem;
+}
+
+main form button {
+    width: 20%;
+    background-color:  #181818;
+    border-radius: 0.5rem;
+    border: none;
+    color: #fefefe;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/*  SHOW ITEM   */
+
+main .item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+
+main .item .row {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+main .item .row h2 {
+    color: #fff;    
+    font-size: 1.7rem;
+}
+
+main .item .row a, main .item .row button {
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+}
+
+main .item .row a {
+    background-color: #c7c7c7;
+    color: #000;
+}
+
+main .item .row button {
+    background-color: #e92b2b;
+    color: #ffffff;
+}
+
+main .item .row span {
+    color: #ffffff;
+    background-color: #222222;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+main .item p {
+    color: #ffffff;
+}
+
+
